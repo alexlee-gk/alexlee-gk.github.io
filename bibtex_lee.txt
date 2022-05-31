@@ -1,0 +1,146 @@
+@article{lee2022spendrobottime,
+  title={How to Spend Your Robot Time: Bridging Kickstarting and Offline Reinforcement Learning for Vision-based Robotic Manipulation},
+  author={Alex X. Lee and Coline Devin and Jost Tobias Springenberg and Yuxiang Zhou and Thomas Lampe and Abbas Abdolmaleki and Konstantinos Bousmalis},
+  journal={arXiv preprint arXiv:2205.03353},
+  year={2022}
+}
+
+@inproceedings{lee2021rgbstacking,
+  title={Beyond Pick-and-Place: Tackling Robotic Stacking of Diverse Shapes},
+  author={Alex X. Lee and
+          Coline Devin and
+          Yuxiang Zhou and
+          Thomas Lampe and
+          Konstantinos Bousmalis and
+          Jost Tobias Springenberg and
+          Arunkumar Byravan and
+          Abbas Abdolmaleki and
+          Nimrod Gileadi and
+          David Khosid and
+          Claudio Fantacci and
+          Jose Enrique Chen and
+          Akhil Raju and
+          Rae Jeong and
+          Michael Neunert and
+          Antoine Laurens and
+          Stefano Saliceti and
+          Federico Casarini and
+          Martin Riedmiller and
+          Raia Hadsell and
+          Francesco Nori},
+  booktitle={Conference on Robot Learning (CoRL)},
+  year={2021},
+  url={https://arxiv.org/abs/2110.06192}
+}
+
+@inproceedings{lee2020slac,
+  title={Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model},
+  author={Alex X. Lee and Anusha Nagabandi and Pieter Abbeel and Sergey Levine},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
+  year={2020}
+}
+
+@article{ebert2018visualforesight,
+  title={Visual Foresight: Model-Based Deep Reinforcement Learning for Vision-Based Robotic Control},
+  author={Frederik Ebert and Chelsea Finn and Sudeep Dasari and Annie Xie and Alex X. Lee and Sergey Levine},
+  journal={arXiv preprint arXiv:1812.00568},
+  year={2018}
+}
+
+@article{lee2018savp,
+  title={Stochastic Adversarial Video Prediction},
+  author={Alex X. Lee and Richard Zhang and Frederik Ebert and Pieter Abbeel and Chelsea Finn and Sergey Levine},
+  journal={arXiv preprint arXiv:1804.01523},
+  year={2018}
+}
+
+@inproceedings{ebert2018robustness,
+  title={Robustness via Retrying: Closed-Loop Robotic Manipulation with Self-Supervised Learning},
+  author={Frederik Ebert and Sudeep Dasari and Alex X. Lee and Sergey Levine and Chelsea Finn},
+  booktitle={Conference on Robot Learning (CoRL)},
+  year={2018}
+}
+
+@inproceedings{ebert2017visualplanning,
+  title={Self-Supervised Visual Planning with Temporal Skip Connections},
+  author={Frederik Ebert and Chelsea Finn and Alex X. Lee and Sergey Levine},
+  booktitle={Conference on Robot Learning (CoRL)},
+  year={2017}
+}
+
+@inproceedings{lee2017servoing,
+  title={Learning Visual Servoing with Deep Features and Fitted Q-Iteration},
+  author={Alex X. Lee and Sergey Levine and Pieter Abbeel},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2017}
+}
+
+@inproceedings{LeeGuptaLuLevineAbbeel_IROS2015,
+  title={Learning from Multiple Demonstrations using Trajectory-Aware Non-Rigid Registration with Applications to Deformable Object Manipulation},
+  author={Alex X. Lee and Abhishek Gupta and Henry Lu and Sergey Levine and Pieter Abbeel},
+  booktitle={International Conference on Intelligent Robots and Systems (IROS)},
+  year={2015}
+}
+
+@inproceedings{Hadfield-Menelletal_ICRA2015,
+  title={Beyond Lowest-Warping Cost Action Selection in Trajectory Transfer},
+  author={Dylan Hadfield-Menell and Alex X. Lee and Chelsea Finn and Eric Tzeng and Sandy Huang and Pieter Abbeel},
+  booktitle={International Conference on Robotics and Automation (ICRA)},
+  year={2015}
+}
+
+@inproceedings{LeeLuGuptaLevineAbbeel_ICRA2015,
+  title={Learning Force-Based Manipulation of Deformable Objects from Multiple Demonstrations},
+  author={Alex X. Lee and Henry Lu and Abhishek Gupta and Sergey Levine and Pieter Abbeel},
+  booktitle={International Conference on Robotics and Automation (ICRA)},
+  year={2015}
+}
+
+@inproceedings{LeeGoldsteinBarrattAbbeel_ICRA2015,
+  title={A Non-Rigid Point and Normal Registration Algorithm with Applications to Learning from Demonstrations},
+  author={Alex X. Lee and Max A. Goldstein and Shane T. Barratt and Pieter Abbeel},
+  booktitle={International Conference on Robotics and Automation (ICRA)},
+  year={2015}
+}
+
+@inproceedings{Leeetal_IROS2014,
+  title={Unifying Scene Registration and Trajectory Optimization for Learning from Demonstrations with Application to Manipulation of Deformable Objects},
+  author={Alex X. Lee and Sandy H. Huang and Dylan Hadfield-Menell and Eric Tzeng and Pieter Abbeel},
+  booktitle={International Conference on Intelligent Robots and Systems (IROS)},
+  year={2014}
+}
+
+@article{Schulmanetal_IJRR2014,
+  title={Motion Planning with Sequential Convex Optimization and Convex Collision Checking},
+  author={John Schulman and Yan Duan and Jonathan Ho and Alex X. Lee and Ibrahim Awwal and Henry Bradlow and Jia Pan and Sachin Patil and Ken Goldberg and Pieter Abbeel},
+  journal={International Journal of Robotics Research (IJRR)},
+  year={2014}
+}
+
+@inproceedings{Kehoeetal_ICRA2014,
+  title={Autonomous Multilateral Debridement with the Raven Surgical Robot},
+  author={Ben Kehoe and Gregory Kahn and Jeffrey Mahler and Jonathan Kim and Alex X. Lee and Anna Lee and Keisuke Nakagawa and Sachin Patil and W. Douglas Boyd and Pieter Abbeel and Ken Goldberg},
+  booktitle={International Conference on Robotics and Automation (ICRA)},
+  year={2014}
+}
+
+@inproceedings{Leeetal_IROS2013,
+  title={Sigma Hulls for Gaussian Belief Space Planning for Imprecise Articulated Robots amid Obstacles},
+  author={Alex X. Lee and Yan Duan and Sachin Patil and John Schulman and Zoe McCarthy and Jur van den Berg and Ken Goldberg and Pieter Abbeel},
+  booktitle={International Conference on Intelligent Robots and Systems (IROS)},
+  year={2013}
+}
+
+@inproceedings{Schulmanetal_RSS2013,
+  title={Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization},
+  author={John D. Schulman and Jonathan Ho and Alex X. Lee and Ibrahim Awwal and Henry Bradlow and Pieter Abbeel},
+  booktitle={Robotics: Science and Systems (RSS)},
+  year={2013}
+}
+
+@inproceedings{SchulmanLeeHoAbbeel_ICRA2013,
+  title={Tracking Deformable Objects with Point Clouds},
+  author={John Schulman and Alex X. Lee and Jonathan Ho and Pieter Abbeel},
+  booktitle={International Conference on Robotics and Automation (ICRA)},
+  year={2013}
+}

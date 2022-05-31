@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Personal Site.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Alex X. Lee</title>
+<!-- InstanceEndEditable -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36074874-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<meta charset='utf-8' />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+<style type="text/css">
+<!--
+body {
+  font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+  padding: 0;
+  margin: 0;
+}
+.header {
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;   /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+  padding-right: 15px;
+  padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+.header h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 50px;
+}
+.header {
+  background-color: #666;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+  border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+  color:#1fa0e4;
+  text-decoration: none;
+}
+a:visited {
+  color: #1fa0e4;
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  color: #888;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+  min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+  background-color: #FFF;
+  margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+
+#cssmenu {
+  float: left;
+  width: 20%;
+  background-color: #49505a;
+}
+#projects #cssmenu ul ul {
+ display: block;
+}
+#research_projects #cssmenu ul ul {
+ display: block;
+}
+#class_projects #cssmenu ul ul {
+ display: block;
+}
+#side_projects #cssmenu ul ul {
+ display: block;
+}
+#internship_projects #cssmenu ul ul {
+ display: block;
+}
+.content {
+  padding: 10px 2%;
+  width: 76%;
+  float: left;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+  padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+  padding: 10px 0;
+  background-color: #6F7D94;
+  position: relative;/* this gives IE6 hasLayout to properly clear */
+  clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+  float: right;
+  margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+  float: left;
+  margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+  clear:both;
+  height:0;
+  font-size: 1px;
+  line-height: 0px;
+}
+.header h1 {
+  color: #FFF;
+}
+#contact {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+-->
+</style>
+<!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+</style>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="body_id" type="text" value="index" -->
+</head>
+
+<body id="index">
+  <div class="container">
+    <div class="header">
+      <h1>Alex X. Lee</h1>
+    <!-- end .header --></div>
+    <div id='cssmenu'>
+      <ul>
+         <li id='home'><a href='index.html'><span>Home</span></a></li>
+         <li id='publications'><a href='publications.html'><span>Publications</span></a></li>
+         <li id='scholar'><a href='https://scholar.google.com/citations?user=8-p9CLsAAAAJ&hl=en&oi=ao'><span>Google Scholar</span></a></li>
+         <li id='github' class='last'><a href='https://github.com/alexlee-gk'><span>GitHub</span></a></li>
+      </ul>
+    <!-- end #cssmenu --></div>
+    <div class="content">
+      <!-- InstanceBeginEditable name="Content" -->
+    <p><b>Visual Dynamics Models for Robotic Planning and Control, </b><br />
+    Alex X. Lee <br />
+    Ph.D. Dissertation, University of California at Berkeley, Computer Science, August 2019. <br />
+    <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-121.html" target="_blank">pdf</a>
+    </p>
+
+    <h1> Pre-prints </h1>
+    <p><b>How to Spend Your Robot Time: Bridging Kickstarting and Offline Reinforcement Learning for Vision-based Robotic Manipulation, </b><br />
+      Alex X. Lee*, Coline Devin*, Jost Tobias Springenberg*, Yuxiang Zhou, Thomas Lampe, Abbas Abdolmaleki, Konstantinos Bousmalis. <br />
+      arXiv preprint arXiv:2205.03353, 2022. <br />
+      (<a href="https://arxiv.org/abs/2205.03353" target="_blank">pdf</a>)
+    </p>
+
+    <p><b>Visual Foresight: Model-Based Deep Reinforcement Learning for Vision-Based Robotic Control, </b><br />
+      Frederik Ebert*, Chelsea Finn*, Sudeep Dasari, Annie Xie, Alex X. Lee, Sergey Levine. <br />
+      arXiv preprint arXiv:1812.00568, 2018. <br />
+      (<a href="https://arxiv.org/abs/1812.00568" target="_blank">pdf</a>, <a href="https://sites.google.com/view/visualforesight" target="_blank">website</a>, <a href="https://github.com/SudeepDasari/visual_foresight" target="_blank">code</a>)
+    </p>
+
+    <p><b>Stochastic Adversarial Video Prediction, </b><br />
+      Alex X. Lee, Richard Zhang, Frederik Ebert, Pieter Abbeel, Chelsea Finn, Sergey Levine. <br />
+      arXiv preprint arXiv:1804.01523, 2018. <br />
+      (<a href="https://arxiv.org/abs/1804.01523" target="_blank">pdf</a>, <a href="https://alexlee-gk.github.io/video_prediction" target="_blank">website</a>, <a href="https://github.com/alexlee-gk/video_prediction" target="_blank">code</a>)
+    </p>
+
+    <h1> Publications </h1>
+    <p><a href="bibtex_lee.txt">bibtex</a></p>
+    
+    <p><b>[15] Beyond Pick-and-Place: Tackling Robotic Stacking of Diverse Shapes, </b><br />
+      Alex X. Lee*, Coline Devin*, Yuxiang Zhou*, Thomas Lampe*, Konstantinos Bousmalis*, Jost Tobias Springenberg*, Arunkumar Byravan, Abbas Abdolmaleki, Nimrod Gileadi, David Khosid, Claudio Fantacci, Jose Enrique Chen, Akhil Raju, Rae Jeong, Michael Neunert, Antoine Laurens, Stefano Saliceti, Federico Casarini, Martin Riedmiller, Raia Hadsell, Francesco Nori. <br />
+      In <i>Conference on Robot Learning (CoRL)</i>, 2021. <br />
+      (<a href="https://arxiv.org/abs/2110.06192" target="_blank">pdf</a>, <a href="http://dpmd.ai/robotics-stacking" target="_blank">blog</a>, <a href="http://dpmd.ai/robotics-stacking-YT" target="_blank">video</a>, <a href="https://github.com/deepmind/rgb_stacking" target="_blank">code</a>)
+    </p>
+
+    <p><b>[14] Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model, </b><br />
+      Alex X. Lee, Anusha Nagabandi, Pieter Abbeel, Sergey Levine. <br />
+      In <i>Neural Information Processing Systems (NeurIPS)</i>, 2020. <br />
+      (<a href="https://arxiv.org/abs/1907.00953" target="_blank">pdf</a>, <a href="https://alexlee-gk.github.io/slac" target="_blank">website</a>, <a href="https://github.com/alexlee-gk/slac" target="_blank">code</a>)
+    </p>
+
+    <p><b>[13] Robustness via Retrying: Closed-Loop Robotic Manipulation with Self-Supervised Learning, </b><br />
+      Frederik Ebert, Sudeep Dasari, Alex X. Lee, Sergey Levine, Chelsea Finn. <br />
+      In <i>Conference on Robot Learning (CoRL)</i>, 2018. <br />
+      (<a href="https://arxiv.org/abs/1810.03043" target="_blank">pdf</a>, <a href="https://sites.google.com/view/robustness-via-retrying/" target="_blank">website</a>)
+    </p>
+    
+    <p><b>[12] Self-Supervised Visual Planning with Temporal Skip Connections, </b><br />
+      Frederik Ebert, Chelsea Finn, Alex X. Lee, Sergey Levine. <br />
+      In <i>Conference on Robot Learning (CoRL)</i>, 2017. <br />
+      (<a href="https://arxiv.org/abs/1710.05268" target="_blank">pdf</a>, <a href="https://sites.google.com/view/sna-visual-mpc/" target="_blank">website</a>, <a href="https://github.com/febert/visual_mpc" target="_blank">code</a>, <a href="http://rail.eecs.berkeley.edu/datasets/bair_robot_pushing_dataset_v0.tar" target="_blank">data</a>)
+    </p>
+
+    <p><b>[11] Learning Visual Servoing with Deep Features and Fitted Q-Iteration, </b><br />
+      Alex X. Lee, Sergey Levine, Pieter Abbeel. <br />
+      In <i>International Conference on Learning Representations (ICLR)</i>, 2017. <br />
+      (<a href="https://arxiv.org/abs/1703.11000" target="_blank">pdf</a>, <a href="https://github.com/alexlee-gk/visual_dynamics" target="_blank">code</a>, <a href="https://github.com/alexlee-gk/citysim3d">servoing benchmark code</a>, <a href="http://rll.berkeley.edu/visual_servoing" target="_blank">website</a>, <a href="http://rll.berkeley.edu/visual_servoing/slides/visual_servoing_gtc_presentation_20170508.pdf">GTC 2017 slides</a>, <a href="http://rll.berkeley.edu/visual_servoing/slides/visual_servoing_gtc_presentation_20170508_with_notes.pdf">with notes</a>, <a href="http://rll.berkeley.edu/visual_servoing/talks/visual_servoing_gtc_presentation_20170508.mp4">GTC 2017 talk</a>)
+    </p>
+
+    <p><b>[10] Learning from Multiple Demonstrations using Trajectory-Aware Non-Rigid Registration with Applications to Deformable Object Manipulation, </b><br />
+      Alex X. Lee, Abhishek Gupta, Henry Lu, Sergey Levine, Pieter Abbeel. <br />
+      In <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2015. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2015-IROS-trajectory-aware-registration.pdf" target="_blank">pdf</a>, <a href="http://rll.berkeley.edu/iros2015lfmd/" target="_blank">videos</a>)
+    </p>
+    
+    <p><b>[9] Beyond Lowest-Warping Cost Action Selection in Trajectory Transfer, </b><br />
+      Dylan Hadfield-Menell, Alex X. Lee, Chelsea Finn, Eric Tzeng, Sandy Huang, Pieter Abbeel. <br />
+      In <i>International Conference on Robotics and Automation (ICRA)</i>, 2015. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2015-ICRA-TPS-LfD-beyond-lowest-warping-cost.pdf" target="_blank">pdf</a>)
+    </p>
+
+    <p><b>[8] Learning Force-Based Manipulation of Deformable Objects from Multiple Demonstrations, </b><br />
+      Alex X. Lee, Henry Lu, Abhishek Gupta, Sergey Levine, Pieter Abbeel. <br />
+      In <i>International Conference on Robotics and Automation (ICRA)</i>, 2015. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2015-ICRA-TPS-LfD-forces.pdf" target="_blank">pdf</a>, <a href="http://rll.berkeley.edu/icra2015lfmd/" target="_blank">videos</a>)
+    </p>
+
+    <p><b>[7] A Non-Rigid Point and Normal Registration Algorithm with Applications to Learning from Demonstrations, </b><br />
+      Alex X. Lee, Max A. Goldstein, Shane T. Barratt, Pieter Abbeel. <br />
+      In <i>International Conference on Robotics and Automation (ICRA)</i>, 2015. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2015-ICRA-TPS-LfD-normals.pdf" target="_blank">pdf</a>, <a href="http://rll.berkeley.edu/icra2015tpsn/" target="_blank">videos</a>)
+    </p>
+    
+    <p><b>[6] Unifying Scene Registration and Trajectory Optimization for Learning from Demonstrations with Application to Manipulation of Deformable Objects, </b><br />
+      Alex X. Lee, Sandy H. Huang, Dylan Hadfield-Menell, Eric Tzeng, Pieter Abbeel. <br />
+      In <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2014. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2014-IROS-jointopt.pdf" target="_blank">pdf</a>, <a href="slides/IROS2014_jointopt_presentation.pdf">presentation slides</a>, <a href="slides/IROS2014_jointopt_interactive_presentation.pdf">interactive presentation slide</a>, <a href="http://lfd.readthedocs.org" target="_blank">code</a>)
+    </p>
+    
+    <p><b>[5] Motion Planning with Sequential Convex Optimization and Convex Collision Checking, </b><br />
+      John Schulman, Yan Duan, Jonathan Ho, Alex X. Lee, Ibrahim Awwal, Henry Bradlow, Jia Pan, Sachin Patil, Ken Goldberg, Pieter Abbeel. <br />
+      In <i>International Journal of Robotics Research (IJRR)</i>, 2014. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2014-IJRR-trajopt.pdf" target="_blank">pdf</a>)
+    </p>
+       
+    <p><b>[4] Autonomous Multilateral Debridement with the Raven Surgical Robot, </b><br />
+      Ben Kehoe, Gregory Kahn, Jeffrey Mahler, Jonathan Kim, Alex X. Lee, Anna Lee, Keisuke Nakagawa, Sachin Patil, W. Douglas Boyd, Pieter Abbeel, Ken Goldberg. <br />
+      In <i>International Conference on Robotics and Automation (ICRA)</i>, 2014. <br />
+      (<a href="http://rll.berkeley.edu/raven/paper.pdf" target="_blank">pdf</a>, <a href="http://rll.berkeley.edu/raven/debridement.html" target="_blank">videos</a>)
+    </p>
+    
+    <p><b>[3] Sigma Hulls for Gaussian Belief Space Planning for Imprecise Articulated Robots amid Obstacles, </b><br />
+      Alex X. Lee, Yan Duan, Sachin Patil, John Schulman, Zoe McCarthy, Jur van den Berg, Ken Goldberg and Pieter Abbeel. <br />
+      In <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2013. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/2013-IROS-sigmahulls-final.pdf" target="_blank">pdf</a>, <a href="http://youtu.be/wtTuXZK-RuU">talk video</a>, <a href="slides/IROS2013_sigmahulls_presentation.pdf" target="_blank">slides</a>)
+    </p>
+    
+    <p><b>[2] Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization, </b><br />
+      John Schulman, Jonathan Ho, Alex X. Lee, Ibrahim Awwal, Henry Bradlow and Pieter Abbeel. <br />
+      In <i>Robotics: Science and Systems (RSS)</i>, 2013.<br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/Schulmanetal_RSS2013.pdf" target="_blank">pdf</a>, <a href="http://rll.berkeley.edu/trajopt/rss" target="_blank">videos</a>, <a href="http://rll.berkeley.edu/trajopt" target="_blank">code</a>)
+    </p>
+
+    <p><b>[1] Tracking Deformable Objects with Point Clouds, </b><br />
+      <font color=red><b>Best Vision Paper Award, </b></font><br />
+      John Schulman, Alex X. Lee, Jonathan Ho and Pieter Abbeel. <br />
+      In <i>International Conference on Robotics and Automation (ICRA)</i>, 2013. <br />
+      (<a href="http://www.cs.berkeley.edu/~pabbeel/papers/SchulmanLeeHoAbbeel_ICRA2013.pdf" target="_blank">pdf</a>, <a href="http://rll.berkeley.edu/tracking/" target="_blank">videos</a>)
+    </p>
+  
+      <!-- InstanceEndEditable -->
+    <!-- end .content --></div>
+    <div class="clearfloat"></div>
+  <!-- end .container --></div>
+</body>
+
+<!-- InstanceEnd --></html>
