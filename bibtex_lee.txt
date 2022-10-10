@@ -1,7 +1,7 @@
-@article{lee2022spendrobottime,
+@inproceedings{lee2022spendrobottime,
   title={How to Spend Your Robot Time: Bridging Kickstarting and Offline Reinforcement Learning for Vision-based Robotic Manipulation},
   author={Alex X. Lee and Coline Devin and Jost Tobias Springenberg and Yuxiang Zhou and Thomas Lampe and Abbas Abdolmaleki and Konstantinos Bousmalis},
-  journal={arXiv preprint arXiv:2205.03353},
+  booktitle={International Conference on Intelligent Robots and Systems (IROS)},
   year={2022}
 }
 
