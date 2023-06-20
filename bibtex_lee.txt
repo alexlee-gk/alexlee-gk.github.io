@@ -1,3 +1,47 @@
+@article{bousmalis2023robocat,
+  title={{RoboCat}: A Self-Improving Foundation Agent for Robotic Manipulation},
+  author={Konstantinos Bousmalis and
+          Giulia Vezzani and
+          Dushyant Rao and
+          Coline Devin and
+          Alex X. Lee and
+          Maria Bauza and
+          Todor Davchev and
+          Yuxiang Zhou and
+          Agrim Gupta and
+          Akhil Raju and
+          Antoine Laurens and
+          Claudio Fantacci and
+          Valentin Dalibard and
+          Martina Zambelli and
+          Murilo Martins and
+          Rugile Pevceviciute and
+          Michiel Blokzijl and
+          Misha Denil and
+          Nathan Batchelor and
+          Thomas Lampe and
+          Emilio Parisotto and
+          Konrad \.Zo\l{}na and
+          Scott Reed and
+          Sergio G\'omez Colmenarejo and
+          Jon Scholz and
+          Abbas Abdolmaleki and
+          Oliver Groth and
+          Jean-Baptiste Regli and
+          Oleg Sushkov and
+          Tom Roth\"orl and
+          Jos\'{e} Enrique Chen and
+          Yusuf Aytar and
+          Dave Barker and
+          Joy Ortiz and
+          Martin Riedmiller and
+          Jost Tobias Springenberg and
+          Raia Hadsell and
+          Francesco Nori and
+          Nicolas Heess},
+  year={2023}
+}
+
 @inproceedings{lee2022spendrobottime,
   title={How to Spend Your Robot Time: Bridging Kickstarting and Offline Reinforcement Learning for Vision-based Robotic Manipulation},
   author={Alex X. Lee and Coline Devin and Jost Tobias Springenberg and Yuxiang Zhou and Thomas Lampe and Abbas Abdolmaleki and Konstantinos Bousmalis},
