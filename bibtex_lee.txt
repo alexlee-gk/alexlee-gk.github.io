@@ -39,6 +39,7 @@
           Raia Hadsell and
           Francesco Nori and
           Nicolas Heess},
+  journal={arXiv preprint arXiv:2306.11706},
   year={2023}
 }
 
@@ -74,7 +75,6 @@
           Francesco Nori},
   booktitle={Conference on Robot Learning (CoRL)},
   year={2021},
-  url={https://arxiv.org/abs/2110.06192}
 }
 
 @inproceedings{lee2020slac,
